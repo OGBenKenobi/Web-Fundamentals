@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    <link rel="stylesheet/less" type="text/css" href="styles.less">
+
+    <title>jQuery Functions</title>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+    
+    <script src="jquery.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <!-- .click -->
+            <h2>.click()</h2>
+            <div class="row">
+                <button class="bc_click col-2">Click</button>
+                <p class="col 10" >Click me for a reaction...</p>
+            </div>
+            <hr>
+            <!-- .hide -->
+            <h2>.hide()</h2>
+            <div class="row">
+                <button class="bc_hide col-2">Hide</button>
+                <p class="col-10">Click to hide button.</p>
+            </div>
+            <hr>
+            <!-- .show -->
+            <h2 class=" bc_show">.show()</h2>
+            <div class="row">
+                <button class="bc_show col-2">Show</button>
+                <p class="col-10">Click the button to show sub-title.</p>
+            </div>
+            <hr>
+            <!-- .toggle -->
+            <h2>.toggle()</h2>
+            <div class="row">
+                <button class="bc_toggle col-2">Toggle</button>
+                <p class="bc_toggle col-10">Click the button to toggle this sentence</p>
+            </div>
+            <hr>
+            <!-- .slideDown -->
+            <h2 class="bc_slideDown">.slideDown()</h2>
+            <div class="row">
+                <button class="bc_slideDown col-2">SlideDown</button>
+                <p class="col-10">Click the button to make sub-title slide down.</p>
+            </div>
+            <hr>
+            <!-- .slideUp -->
+            <h2 class="bc_slideUp">.slideUp</h2>
+            <div class="row">
+                <button class="bc_slideUp col-2">SlideUp</button>
+                <p class="col-10">Click the button to make the sub-title slide up.</p>
+            </div>
+            <hr>
+            <!-- .slideToggle -->
+            <h2 class="bc_slideToggle">.slideToggle</h2>
+            <div class="row">
+                <button class=" bc_slideToggle col-2">SlideToggle</button>
+                <p class="col-10">Click the button to toggle the sub-title's slide function.</p>
+            </div>
+            <hr>
+            <!-- .fadeIn -->
+            <h2 class="bc_fadeIn">.fadeIn()</h2>
+            <div class="row">
+                <button class="bc_fadeIn col-2">FadeIn</button>
+                <p class="col-10">Click the button to fade the sub-title in.</p>
+            </div>
+            <hr>
+            <!-- .fadeOut -->
+            <h2 class="bc_fadeOut">.fadeOut()</h2>
+            <div class="row">
+                <button class="bc_fadeOut col-2">FadeOut</button>
+                <p class="col-10">Click the button to fade the sub-title out.</p>
+            </div>
+            <hr>
+            <!-- .addClass -->
+            <h2 class="bc_addClass">.addClass()</h2>
+            <div class="row">
+                <button class="bc_addClass col-2">AddClass</button>
+                <p class="col-10">Click the button to add a red text class to the sub-title.</p>
+            </div>
+            <hr>
+            <!-- .before -->
+            <h2 class="bc_before">.before()</h2>
+            <div class="row">
+                <button class="bc_before col-2">Before</button>
+                <p class="col-10">Click the button to add another sub-title before the current sub-title.</p>
+            </div>
+            <hr>
+            <!-- .after -->
+            <h2 class="bc_after">.after</h2>
+            <div class="row">
+                <button class="bc_after col-2">After</button>
+                <p class="col-10">Click the button to add another sub-title before the current sub-title.</p>
+            </div>
+            <hr>
+            <!-- .append -->
+            <h2 class="bc_append">.append</h2>
+            <div class="row">
+                <button class="bc_append col-2">Append</button>
+                <p class="col-10">Click the button to append the sub-title.</p>
+            </div>
+            <hr>
+            <!-- .html -->
+            <h2>.html()</h2>
+            <div class="row">
+                <button class="bc_html col-2">HTML</button>
+                <p class="bc_html col-10">Click the button to edit this HTML.</p>
+            </div>
+            <hr>
+            <!-- .attr -->
+            <h2>.attr()</h2>
+            <div class="row">
+                <button class="bc_attr col-2">Attr</button>
+                <p class="col-10"><span class="bc_attr">Click the button to change the size attribute of this sentence.</span></p>
+            </div>
+            <hr>
+            <!-- .val -->
+            <h2 class="bc_val">.val()</h2>
+            <div class="row">
+                <button class="bc_val col-2">Val</button>
+                <p class="col-10">Click the button to return the value of the sub-title</p>
+            </div>
+            <hr>
+            <!-- .text -->
+            <h2>.text()</h2>
+            <div class="row">
+                <button class="bc_text col-2">Text</button>
+                <p class="bc_text col-10">Click the button to change the text in this sentence.</p>
+            </div>
+        </div>
+    </body>
+</html>

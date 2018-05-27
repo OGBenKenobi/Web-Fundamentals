@@ -1,0 +1,46 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+#top{
+    background-color: #B3B3B3;
+    width: 570px;
+}
+#mid{
+    background-color: #CCCCCC;
+    width: 570px;
+}
+#bot{
+    background-color: #FFFEA6;
+    width: 570px;
+}
+span{
+    font-weight: bold;
+    margin: 0px;
+    padding: 3px;
+}
+@media only screen and (max-width:480px){
+    .desk{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .desk{
+        display: none;
+    }
+    .cel{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+    .tab{
+        display: none;
+    }
+    .cel{
+        display: none;
+    }
+}

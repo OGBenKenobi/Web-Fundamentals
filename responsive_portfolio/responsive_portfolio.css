@@ -1,0 +1,33 @@
+.bc_bg{
+    background-color: #281C1F;
+}
+.bc_bg_2{
+    background-color: #F1F1F1;
+}
+p{
+    background-color: #F1F1F1;
+}
+h2, h3{
+    background-color: #B2B2B6;
+    color: white;    
+}
+.bc_card img{
+    display: inline-block;
+    width: 43px;
+    margin: 5px 5px 0px 5px;
+}
+.bc_card div{
+    height: 10em;
+    background-color: #F1F1F1;
+}
+.bc_card p{
+    padding: auto;
+}
+.bc_portrait{
+    border: #B2B2B6 .3em solid;
+    padding: 0em
+
+}
+.top_buffer{
+    margin-top: 1em;
+}
