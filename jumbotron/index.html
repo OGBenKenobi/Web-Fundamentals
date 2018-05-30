@@ -15,6 +15,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- LESS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
@@ -23,6 +24,81 @@
     <script src="main.js"></script>
     </head>
     <body>
-        
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Artists
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Lil Drip</a>
+                    <a class="dropdown-item" href="#">Xanarchy</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Collaborators</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>  
+          
+          <!-- jumbotron -->
+          <div class="jumbotron">
+              <h1 class="display-4">Cliche Music Group</h1>
+              <p class="lead">Changing the rap game with unique patterns, loops, presets, premade arrangements, ghost-written rhymes, auto-tuned coughs and cow bell...</p>
+              <button class="btn btn-danger">Learn more &raquo;</button>
+
+          </div>
+
+          <!-- card section -->
+          <div class="container">
+            <div class="row text-muted justify-content-center">
+                <div class="card col-md-10 col-lg-3 m-3">
+                    <div class="card-block">
+                        <h2 class="card-title h1">Lil Drip</h2>
+                        <p class="card-content lead">His drip is the drippiest... Drip Drip... Drip Drop? Sauce... Dat way, dis way and errwhere inbutweensky</p>
+                        <button class="btn btn-danger mb-3">View Details &raquo;</button>
+                    </div>
+                </div>
+                <div class="card col-md-10 col-lg-3 m-3">
+                    <div class="card-block">
+                        <h2 class="card-title h1">Xanarchy</h2>
+                        <p class="card-content lead">His drip is the drippiest... Drip Drip... Drip Drop? Sauce... Dat way, dis way and errwhere inbutweedle</p>
+                        <button class="btn btn-danger mb-3">View Details &raquo;</button>
+                    </div>
+                </div>
+                <div class="card col-md-10 col-lg-3 m-3">
+                    <div class="card-block">
+                        <h2 class="card-title h1">Compadres</h2>
+                        <p class="card-content lead">Their drip is the drippiest... Drip Drip... Drip Drop? Sauce... Dat way, dis way and errwhere inbutweensky</p>
+                        <button class="btn btn-danger mb-3">View Details &raquo;</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+
+          <!-- footer -->
+          <h6>Copyright 2000BC-808AD</h6>
     </body>
 </html>
